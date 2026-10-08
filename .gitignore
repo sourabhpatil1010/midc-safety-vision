@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Secrets
+.env
+
+# Biometric data (never upload)
+data/employee_photos/*
+data/embeddings/*
+!data/employee_photos/.gitkeep
+!data/embeddings/.gitkeep
+
+# Large re-creatable files
+datasets/*
+!datasets/.gitkeep
+runs/
+*.pt
+*.onnx
+
+# Test outputs
+*.avi
+*.mp4
+bus.jpg

@@ -1,0 +1,10 @@
+# PPE requirements per employee role.
+# Defines which PPE items are mandatory for each role in each zone.
+#
+# Example structure:
+#
+# roles:
+#   welder:
+#     required_ppe: [helmet, gloves, face_shield, safety_boots]
+#   visitor:
+#     required_ppe: [helmet, vest]

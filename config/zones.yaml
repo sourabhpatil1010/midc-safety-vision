@@ -1,0 +1,10 @@
+# Zone definitions and camera-to-zone mapping for the MIDC facility.
+# Example structure:
+#
+# zones:
+#   - id: zone_a
+#     name: "Main Gate"
+#     cameras: [cam_01, cam_02]
+#   - id: zone_b
+#     name: "Workshop Floor"
+#     cameras: [cam_03]
